@@ -19,11 +19,12 @@ This looks beautifull and i think `📄 README.md` should remain there for a whi
 28     
 29     You can also preview changes using PRs, which generates a preview link of the docs.
 30     
-31     #### Troubleshooting
+31     Change something here now and see what happens
 32     
-33     - Mintlify dev isn't running - Run `mintlify install` it'll re-install dependencies.
-34     - Page loads as a 404 - Make sure you are running in a folder with `mint.json` and some other stuff....
-35     
+33     #### Troubleshooting
+34     
+35     - Mintlify dev isn't running - Run `mintlify install` it'll re-install dependencies.
+36     - Page loads as a 404 - Make sure you are running in a folder with `mint.json` and some other stuff....
 ```
 
 <br/>
