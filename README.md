@@ -28,6 +28,8 @@ Changes will be deployed to production automatically after pushing to the defaul
 
 You can also preview changes using PRs, which generates a preview link of the docs.
 
+Change something here now and see what happens
+
 #### Troubleshooting
 
 - Mintlify dev isn't running - Run `mintlify install` it'll re-install dependencies.
