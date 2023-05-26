@@ -45,7 +45,7 @@ You can also preview changes using PRs, which generates a preview link of the do
 
 *   Page loads as a 404 - Make sure you are running in a folder with `📄 mint.json`
 
-`📄 api-reference/authentication.mdx` and check wht happens
+`authentication`<swm-token data-swm-token=":mint.json:48:12:12:`      &quot;pages&quot;: [&quot;api-reference/authentication&quot;]`"/> file
 
 <br/>
 
