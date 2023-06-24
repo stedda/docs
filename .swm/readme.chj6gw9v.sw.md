@@ -2,7 +2,7 @@
 id: chj6gw9v
 title: README
 file_version: 1.1.2
-app_version: 1.9.10
+app_version: 1.11.8
 ---
 
 # Mintlify Starter Kit
@@ -18,6 +18,7 @@ Click on `Use this template` to copy the Mintlify starter kit. The starter kit c
 *   API Reference pages
 
 *   Use of popular components
+<br/>
 
 ### 👩‍💻 Development
 
@@ -27,6 +28,22 @@ Install the [Mintlify CLI](https://www.npmjs.com/package/mintlify) to preview th
 npm i -g mintlify
 ```
 
+<br/>
+
+<!--MERMAID {width:100}-->
+```mermaid
+graph TD;
+
+B --> `mintlify`;
+
+C --> `light`;
+
+
+```
+<!--MCONTENT {content: "graph TD;\n\nB \\-\\-\\> `mintlify`<swm-token data-swm-token=\":mint.json:33:9:9:`      &quot;url&quot;: &quot;https://mintlify.com&quot;`\"/>;\n\nC \\-\\-\\> `light`<swm-token data-swm-token=\":mint.json:6:2:2:`    &quot;light&quot;: &quot;/logo/light.png&quot;`\"/>;\n\n<br/>"} --->
+
+<br/>
+
 Run the following command at the root of your documentation (where mint.json is)
 
 ```
@@ -35,7 +52,15 @@ mintlify dev
 
 ### 😎 Publishing Changes
 
-Changes will be deployed to production automatically after pushing to the default branch.
+graph TD;
+
+A-->B;
+
+A-->C;
+
+B-->D;
+
+C-->D;Changes will be deployed to production automatically after pushing to the default branch.
 
 You can also preview changes using PRs, which generates a preview link of the docs.
 
@@ -46,6 +71,8 @@ You can also preview changes using PRs, which generates a preview link of the do
 *   Page loads as a 404 - Make sure you are running in a folder with `📄 mint.json`
 
 `authentication`<swm-token data-swm-token=":mint.json:48:12:12:`      &quot;pages&quot;: [&quot;api-reference/authentication&quot;]`"/> file
+
+<br/>
 
 <br/>
 
